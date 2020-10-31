@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recording Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="http://media.istockphoto.com/vectors/record-studio-label-template-microphone-and-headphones-vector-id533066180?k=6&m=533066180&s=612x612&w=0&h=ghMCER3TA6vjiNvhRy8EMA__yCkRlOp_tiOXvaFxZhE="
+        alt=""
+      />
+      <h1>Alto Music</h1>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Contact Us!</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Contact Us!</h2>
+    </section>
+    <section>
+      <fieldset>
+        <legend>Client Sign-in</legend>
+        <input type="text" placeholder="Username" />
+        <br />
+        <input type="password" placeholder="Password" />
+        <br />
+        <button id="log-in">Log-in</button>
+        <div id="forgot">
+          <p>Don't have an account? <a href="#">Sign up</a>.</p>
+          <p>Forgot <a href="#">username</a> or <a href="#">password</a>?</p>
+        </div>
+      </fieldset>
+    </section>
+
+    <section>
+      <h3>Schedule a session!</h3>
+      <fieldset>
+        <legend>Please fill in:</legend>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+
+        <input required type="email" placeholder="Email" /> <br />
+        <label>Date of Session:</label>
+        <br />
+        <input type="date" required />
+
+        <br />
+        <button>BOOK SCHEDULE!</button>
+      </fieldset>
+    </section>
+
+    <section>
+      <h3>Tell us how we did!</h3>
+      <fieldset>
+        <br />
+        <label>How did you hear about us?</label> <br />
+        <select>
+          <option>Google</option>
+          <option>Television</option>
+          <option>Friend/Family</option>
+          <option>Other</option>
+        </select>
+
+        <br />
+
+        <label>Would you visit us again?</label> <br />
+        <input type="radio" name="choice" /> <label>Yes</label>
+        <input type="radio" name="choice" /> <label>No</label>
+        <input type="radio" name="choice" /> <label>Maybe</label>
+        <br />
+        <br />
+        <label>Comments: </label> <br />
+        <textarea placeholder=" Type here..." cols="30" rows="10"></textarea>
+        <br />
+        <br />
+        <input type="checkbox" />
+        <label>Sign me up for email updates</label>
+        <br />
+        <input type="submit" value="Submit Review" />
+      </fieldset>
+    </section>
+    <div>
+      <footer>
+        <cite>
+          <small>© 2020 Alto Music Corp.</small>
+          <br />
+          <small>Images from the Internet </small>
+        </cite>
+      </footer>
+    </div>
+  </body>
+</html>
